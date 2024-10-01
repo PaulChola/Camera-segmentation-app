@@ -1,0 +1,23 @@
+buildscript {
+    ext.kotlin_version = '1.8.21' // You can try a slightly newer version for better compatibility
+
+    repositories {
+        google()
+        mavenCentral() // Correct replacement for jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.4.2' // Updated Android Gradle Plugin version
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version" // Kotlin plugin version
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral() // Replacing jcenter with mavenCentral
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
