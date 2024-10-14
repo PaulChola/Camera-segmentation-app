@@ -106,7 +106,7 @@ dependencies {
 <h2>Acknowledgements</h2>
 <ul>
     <li><a href="https://www.tensorflow.org/lite">TensorFlow Lite</a></li>
-    <li><a href="https://developer.android.com/training/camerax">Android CameraX</a></li>
+    <li><a href="https://www.linkedin.com/in/paul-chola-bwembya-mumbi-096182285/">PAUL CHOLA BWEMBYA MUMBI</a></li>
     <li><a href="https://developer.android.com/reference/android/speech/tts/TextToSpeech">Text-to-Speech (TTS)</a></li>
 </ul>
 
