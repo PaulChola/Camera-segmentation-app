@@ -33,6 +33,7 @@ android {
         sourceCompatibility = JavaVersion.VERSION_17 // Set Java source compatibility to 17
         targetCompatibility = JavaVersion.VERSION_17 // Set Java target compatibility to 17
     }
+    namespace 'com.example.camera_segmentation_app'
 }
 
 repositories {
